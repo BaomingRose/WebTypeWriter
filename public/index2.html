@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+    <title>下载-打字练习</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        #bottom {
+            background-color: #EFEEDC;
+            height:60px;
+            padding:10px 0px;
+        }
+
+        #bottom_left{
+            width: 400px;
+            float: left;
+            margin-left: 200px;
+        }
+        #bottom_right{
+            width: 500px;
+            float: left;
+            line-height:28px;/*行高*/
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#myScrollspy" style="background-color:#191970;" >
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Type Writer</h1>
+            <blockquote class="pull-right text-primary">
+                  打字，我们是认真的
+            </blockquote>
+        </div>
+
+        <div class="row" style="background-color: #F0F8FF;"> 
+            <div class="col-xs-3" id="myScrollspy" >
+                <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="125">
+                    <li class="active"><a href="#section-1">软件下载</a></li>
+                    <li><a href="#section-2">安装说明</a></li>
+                    <li><a href="#section-3">盲打教程</a></li>
+                    <li><a href="#section-4">代码开源</a></li>
+                </ul>
+            </div>
+
+            <div class="col-xs-9" style="background-color: #87CEFA;">
+                <div class="page-header" style="background-color: #9370DB">
+                    <h1 id="section-1">软件下载</h1>
+                </div>
+                <br />
+                <p>PC端获取软件：
+                    <a href="/release_1.1.zip" class="btn btn-info btn-lg">
+                        <span class="glyphicon glyphicon-download-alt"></span> 下载最新版本
+                    </a>
+                </p>
+                <br />
+
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>版本下载</th>
+                            <th>备注</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a href="./release_1.0.zip">release_1.0.zip</a></td>
+                            <td>最初版本</td>
+                        </tr>
+                        <tr>
+                            <td><a href="./release_1.1.zip">release_1.1.zip</a></td>
+                            <td>适应显示缩放</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <hr>
+
+                <div class="page-header" style="background-color: #9370DB">
+                    <h1 id="section-2">安装说明</h1>
+                </div>
+                <p class="text-warning lead">下载到本地，解压即可，找到<code>TypeWriting.exe</code>文件，点击打开即可使用</p>
+                <hr>
+
+                <div class="page-header" style="background-color: #9370DB">
+                    <h1 id="section-3">盲打教程</h1>
+                </div>
+
+                <address>
+                    <strong>教程链接</strong><br>
+                    <a href="https://jingyan.baidu.com/article/54b6b9c031da462d583b4715.html">https://jingyan.baidu.com/article/54b6b9c031da462d583b4715.html</a>
+                </address>
+                
+                <hr>
+                
+                <div class="page-header" style="background-color: #9370DB">
+                    <h1 id="section-4">代码开源</h1>
+                </div>
+                <p>欢迎访问GitHub：
+                    <a href="https://github.com/BaomingRose/TypeWriting" class="btn btn-info btn-lg">
+                        <span class="glyphicon glyphicon-eye-open"></span> 代码开源连接
+                    </a>
+                </p>
+                <hr>
+                </div>
+                </div>
+                </div>
+                
+                <div id="bottom">
+                    <div id="bottom_left">
+                        <img alt="" src="./img/logo.png" />
+                    </div>
+                    <div id="bottom_right">
+                        <span>CONTACT US</span><br />
+                        <span>copyright 2021 &copy; TypeWriterOfRose All Rights RESERVED</span>
+                    </div>
+                </div>
+                </body>
